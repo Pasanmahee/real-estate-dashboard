@@ -373,7 +373,7 @@ export const ManageProperty: FC<PropertyProps> = (props) => {
             />
           );
         }
-        return description
+        return description.substring(3,10)
       },
     },
     {
