@@ -191,6 +191,7 @@ export const ManageProperty: FC<PropertyProps> = (props) => {
     setRefresh(!refresh)
   };
 
+  // to edit record
   const getRowByKey = (key: string, newData?: PropertyProps[]) =>
     (newData || data)?.filter((item) => item.key === key)[0];
 
